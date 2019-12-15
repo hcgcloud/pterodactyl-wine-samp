@@ -1,6 +1,4 @@
 # pterodactyl-wine-samp
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/hcgcloud/pterodactyl-wine-samp.svg?style=flat)](https://hub.docker.com/r/hcgcloud/pterodactyl-wine-samp)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hcgcloud/pterodactyl-wine-samp.svg?style=flat)](https://hub.docker.com/r/hcgcloud/pterodactyl-wine-samp)
 [![Discord](https://img.shields.io/discord/609764930899673092)](https://discord.gg/5KnNVfv)
 ![](https://img.shields.io/badge/status-prod-informational)
 
