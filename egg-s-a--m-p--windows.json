@@ -7,7 +7,7 @@
     "name": "SA-MP-Windows",
     "author": "service@hcgcloud.com",
     "description": "SA-MP is a free Massively Multiplayer Online game mod for the PC version of Rockstar Games Grand Theft Auto: San Andreas (tm).",
-    "image": "hcgcloud\/pterodactyl-images:ubuntu_wine",
+    "image": "hcgcloud\/pterodactyl-images:ubuntu-wine",
     "startup": "wine64 .\/samp-server.exe",
     "config": {
         "files": "{\r\n    \"server.cfg\": {\r\n        \"parser\": \"file\",\r\n        \"find\": {\r\n            \"port\": \"port {{server.build.default.port}}\",\r\n            \"maxplayers\": \"maxplayers {{server.build.env.MAX_PLAYERS}}\"\r\n        }\r\n    }\r\n}",
